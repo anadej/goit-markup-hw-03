@@ -52,17 +52,18 @@
     </header>
 
     <main>
-      <section class="section">
+      <section class="section portfolio">
+      <div class="container">
         <h1 class="section-title" hidden>Список работ</h1>
         <ul class="filter-portfolio list">
-          <li><button class="btn" type="button">Все</button></li>
-          <li><button class="btn" type="button">Веб-сайты</button></li>
-          <li><button class="btn" type="button">Приложения</button></li>
-          <li><button class="btn" type="button">Дизайн</button></li>
-          <li><button class="btn" type="button">Маркетинг</button></li>
+          <li class="item"><button class="btn" type="button">Все</button></li>
+          <li class="item"><button class="btn" type="button">Веб-сайты</button></li>
+          <li class="item"><button class="btn" type="button">Приложения</button></li>
+          <li class="item"><button class="btn" type="button">Дизайн</button></li>
+          <li class="item"><button class="btn" type="button">Маркетинг</button></li>
         </ul>
         <ul class="portfolio-list list">
-          <l class="item">
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/portfolio/technokrjakweb.jpg"
@@ -162,6 +163,7 @@
             </a>
           </li>
         </ul>
+       </div>
       </section>
     </main>
 
@@ -170,8 +172,14 @@
       <div class="container">
         <a class="logo link" href="./index.html"> <span class="accent">Web</span>Studio</a>
         <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <a class="footer-contact link" href="mailto:info@example.com">info@example.com</a>
-        <a class="footer-contact link" href="tel:+380991111111">+38 099 111 11 11</a>
+        <ul class="footer-contact list">
+          <li class="item">
+            <a class="link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="item">
+            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
