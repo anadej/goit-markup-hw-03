@@ -128,6 +128,9 @@ body {
 
 .header-contact {
   display: flex;
+/* flex-grow: 1; */
+  /* justify-content: flex-end; */
+
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -362,6 +365,7 @@ body {
 }
 
 .portfolio-list .item{
+  width: calc(100% / 3 -30px);
   margin-left: 30px;
   margin-top: 30px;
 
