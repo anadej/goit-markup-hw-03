@@ -269,16 +269,17 @@ body {
 
 /* ========== FEATURES  WORK  TEAM ========== */
 
-.section.feature {
-  display: flex;
-}
-
 .feature-list,
 .work-list,
 .team-list,
 .portfolio-list {
   display: flex;
 }
+
+.section.feature {
+  display: flex;
+}
+
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -319,7 +320,7 @@ body {
 .team-list .item {
   background-color: var(--primary-white-color);
 
-  width: calc(100% / 4 -30px);
+  /* width: calc(100% / 4 - 90px); */
   margin-left: 30px;
   margin-top: 30px;
 
