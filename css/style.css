@@ -291,7 +291,6 @@ body {
   display: flex;
 }
 
-
 .feature-list .title {
   color: var(--title-text-color);
   font-size: inherit;
